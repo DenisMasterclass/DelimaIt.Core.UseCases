@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>DeLimaIt Core Use Cases</Title>
+	  <Authors>Denis MasterClass</Authors>
+	  <Company>DeLima It</Company>
+	  <PackAsTool>True</PackAsTool>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>   
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Serilog" Version="4.0.0" />
+    <PackageReference Include="SerilogTimings" Version="3.1.0" />
+	  <None Include="docs\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
