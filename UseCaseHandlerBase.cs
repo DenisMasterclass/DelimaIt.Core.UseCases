@@ -6,6 +6,8 @@ using Serilog.Context;
 using Serilog.Core.Enrichers;
 using Serilog.Events;
 using SerilogTimings;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace DelimaIt.Core.UseCases
 {

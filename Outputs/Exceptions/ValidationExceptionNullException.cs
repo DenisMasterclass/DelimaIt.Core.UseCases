@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 
 namespace DelimaIt.Core.UseCases.Outputs.Exceptions

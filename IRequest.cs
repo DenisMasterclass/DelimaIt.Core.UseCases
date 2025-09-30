@@ -1,4 +1,6 @@
-﻿namespace DelimaIt.Core.UseCases
+﻿using System;
+
+namespace DelimaIt.Core.UseCases
 {
     public interface IRequest
     {

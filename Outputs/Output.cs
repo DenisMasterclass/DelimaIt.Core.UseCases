@@ -1,8 +1,8 @@
 ﻿using DelimaIt.Core.UseCases.Outputs.Exceptions;
 using FluentValidation.Results;
+using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DelimaIt.Core.UseCases.Outputs
 {
@@ -120,10 +120,6 @@ namespace DelimaIt.Core.UseCases.Outputs
                 _messages = new List<string>();
             }
         }
-
-
-
-
 
         public void AddResult(T result)
         {
